@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>net7.0;net48</TargetFrameworks>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Flurl" Version="3.0.7" />
+    <PackageReference Include="Verify.DiffPlex" Version="2.2.1" />
+    <PackageReference Include="Argon" Version="0.6.0" />
+    <PackageReference Include="MarkdownSnippets.MsBuild" Version="24.5.1" Condition="$(TargetFramework) == 'net7.0'" />
+    <PackageReference Include="Xunit" Version="2.4.2" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.5" PrivateAssets="all" />
+    <PackageReference Include="Verify.Xunit" Version="19.13.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.5.0" />
+    <ProjectReference Include="..\Verify.Flurl\Verify.Flurl.csproj" />
+    <PackageReference Include="ProjectDefaults" Version="1.0.90" PrivateAssets="all" />
+  </ItemGroup>
+</Project>
