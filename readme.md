@@ -24,7 +24,6 @@ Call `VerifyFlurl.Initialize()` in a `[ModuleInitializer]`.
 ```cs
 public static class ModuleInitializer
 {
-
     [ModuleInitializer]
     public static void Initialize() =>
         VerifyDiffPlex.Initialize();
