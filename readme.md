@@ -75,7 +75,6 @@ Results in:
   {
     Request: http://api.mysite.com/,
     Response: {
-      Version: 1.1,
       Status: 200 OK,
       Content: {
         Headers: {
@@ -97,7 +96,6 @@ Results in:
       }
     },
     Response: {
-      Version: 1.1,
       Status: 200 OK,
       Content: {
         Headers: {
@@ -109,5 +107,5 @@ Results in:
   }
 ]
 ```
-<sup><a href='/src/Tests/Tests.Usage.verified.txt#L1-L37' title='Snippet source file'>snippet source</a> | <a href='#snippet-Tests.Usage.verified.txt' title='Start of snippet'>anchor</a></sup>
+<sup><a href='/src/Tests/Tests.Usage.verified.txt#L1-L35' title='Snippet source file'>snippet source</a> | <a href='#snippet-Tests.Usage.verified.txt' title='Start of snippet'>anchor</a></sup>
 <!-- endSnippet -->
