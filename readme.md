@@ -55,7 +55,7 @@ public async Task Usage()
 {
     using var httpTest = new HttpTest();
 
-    httpTest.RespondWith("OK", 200);
+    httpTest.RespondWith("OK");
 
     await "http://api.mysite.com/".GetAsync();
     await "http://api.mysite.com/".PostAsync(new StringContent("the content") );
@@ -64,4 +64,50 @@ public async Task Usage()
 }
 ```
 <sup><a href='/src/Tests/Tests.cs#L3-L18' title='Snippet source file'>snippet source</a> | <a href='#snippet-usage' title='Start of snippet'>anchor</a></sup>
+<!-- endSnippet -->
+
+Results in:
+
+<!-- snippet: Tests.Usage.verified.txt -->
+<a id='snippet-Tests.Usage.verified.txt'></a>
+```txt
+[
+  {
+    Request: http://api.mysite.com/,
+    Response: {
+      Version: 1.1,
+      Status: 200 OK,
+      Content: {
+        Headers: {
+          Content-Type: text/plain; charset=utf-8
+        },
+        Value: OK
+      }
+    }
+  },
+  {
+    Request: {
+      Method: POST,
+      Uri: http://api.mysite.com/,
+      Content: {
+        Headers: {
+          Content-Type: text/plain; charset=utf-8
+        },
+        Value: the content
+      }
+    },
+    Response: {
+      Version: 1.1,
+      Status: 200 OK,
+      Content: {
+        Headers: {
+          Content-Type: text/plain; charset=utf-8
+        },
+        Value: OK
+      }
+    }
+  }
+]
+```
+<sup><a href='/src/Tests/Tests.Usage.verified.txt#L1-L37' title='Snippet source file'>snippet source</a> | <a href='#snippet-Tests.Usage.verified.txt' title='Start of snippet'>anchor</a></sup>
 <!-- endSnippet -->

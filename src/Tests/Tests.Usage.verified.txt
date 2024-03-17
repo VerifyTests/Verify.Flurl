@@ -1,0 +1,35 @@
+﻿[
+  {
+    Request: http://api.mysite.com/,
+    Response: {
+      Status: 200 OK,
+      Content: {
+        Headers: {
+          Content-Type: text/plain; charset=utf-8
+        },
+        Value: OK
+      }
+    }
+  },
+  {
+    Request: {
+      Method: POST,
+      Uri: http://api.mysite.com/,
+      Content: {
+        Headers: {
+          Content-Type: text/plain; charset=utf-8
+        },
+        Value: the content
+      }
+    },
+    Response: {
+      Status: 200 OK,
+      Content: {
+        Headers: {
+          Content-Type: text/plain; charset=utf-8
+        },
+        Value: OK
+      }
+    }
+  }
+]
