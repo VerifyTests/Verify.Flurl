@@ -44,7 +44,7 @@ public static class ModuleInitializer
 
 ### Test
 
-Given any calls to `HttpTest`, those call can be verifies as follows:
+Given any calls to `HttpTest`, those call can be verified as follows:
 
 <!-- snippet: usage -->
 <a id='snippet-usage'></a>
