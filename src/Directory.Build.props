@@ -9,5 +9,8 @@
     <Description>Extends Verify (https://github.com/VerifyTests/Verify) to allow verification of Flurl (https://flurl.dev/) bits.</Description>
     <ResolveAssemblyReferencesSilent>true</ResolveAssemblyReferencesSilent>
     <SignAssembly>false</SignAssembly>
+    <NuGetAuditMode>all</NuGetAuditMode>
+    <NuGetAuditLevel>low</NuGetAuditLevel>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
   </PropertyGroup>
 </Project>
