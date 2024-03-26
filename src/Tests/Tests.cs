@@ -10,7 +10,7 @@ public class Tests
         httpTest.RespondWith("OK");
 
         await "http://api.mysite.com/".GetAsync();
-        await "http://api.mysite.com/".PostAsync(new StringContent("the content") );
+        await "http://api.mysite.com/".PostAsync(new StringContent("the content"));
 
         await Verify(httpTest);
     }
