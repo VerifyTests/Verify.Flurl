@@ -1,0 +1,23 @@
+<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+    <CentralPackageTransitivePinningEnabled>false</CentralPackageTransitivePinningEnabled>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageVersion Include="Argon.Xml" Version="0.17.0" />
+    <PackageVersion Include="Flurl" Version="4.0.0" />
+    <PackageVersion Include="Flurl.Http" Version="4.0.2" />
+    <PackageVersion Include="MarkdownSnippets.MsBuild" Version="27.0.2" />
+    <PackageVersion Include="Microsoft.AspNetCore.OpenApi" Version="8.0.4" />
+    <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.10.0" />
+    <PackageVersion Include="Polyfill" Version="5.2.2" />
+    <PackageVersion Include="ProjectDefaults" Version="1.0.127" />
+    <PackageVersion Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <PackageVersion Include="Verify" Version="24.2.0" />
+    <PackageVersion Include="Verify.DiffPlex" Version="3.0.0" />
+    <PackageVersion Include="Verify.Http" Version="6.2.1" />
+    <PackageVersion Include="Verify.Xunit" Version="24.2.0" />
+    <PackageVersion Include="Xunit" Version="2.8.1" />
+    <PackageVersion Include="xunit.runner.visualstudio" Version="2.8.1" />
+  </ItemGroup>
+</Project>
