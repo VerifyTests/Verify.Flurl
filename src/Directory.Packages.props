@@ -13,7 +13,7 @@
     <PackageVersion Include="Polyfill" Version="5.5.3" />
     <PackageVersion Include="ProjectDefaults" Version="1.0.128" />
     <PackageVersion Include="Swashbuckle.AspNetCore" Version="6.5.0" />
-    <PackageVersion Include="Verify" Version="25.0.3" />
+    <PackageVersion Include="Verify" Version="25.0.4" />
     <PackageVersion Include="Verify.DiffPlex" Version="3.0.0" />
     <PackageVersion Include="Verify.Http" Version="6.2.1" />
     <PackageVersion Include="Verify.Xunit" Version="25.0.3" />
