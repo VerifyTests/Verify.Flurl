@@ -6,6 +6,7 @@
     <PackageReference Include="Flurl" />
     <PackageReference Include="Flurl.Http" />
     <PackageReference Include="Verify" />
+    <PackageReference Include="Argon" />
     <PackageReference Include="Argon.Xml" />
     <PackageReference Include="Polyfill" PrivateAssets="all" />
     <PackageReference Include="ProjectDefaults" PrivateAssets="all" />
