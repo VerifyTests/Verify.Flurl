@@ -4,8 +4,8 @@
     <CentralPackageTransitivePinningEnabled>true</CentralPackageTransitivePinningEnabled>
   </PropertyGroup>
   <ItemGroup>
-    <PackageVersion Include="Argon" Version="0.22.0" />
-    <PackageVersion Include="Argon.Xml" Version="0.22.0" />
+    <PackageVersion Include="Argon" Version="0.24.2" />
+    <PackageVersion Include="Argon.Xml" Version="0.24.2" />
     <PackageVersion Include="Flurl" Version="4.0.0" />
     <PackageVersion Include="Flurl.Http" Version="4.0.2" />
     <PackageVersion Include="MarkdownSnippets.MsBuild" Version="27.0.2" />
