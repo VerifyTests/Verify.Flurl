@@ -11,7 +11,7 @@
     <PackageVersion Include="MarkdownSnippets.MsBuild" Version="27.0.2" />
     <PackageVersion Include="Microsoft.AspNetCore.OpenApi" Version="8.0.4" />
     <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="17.12.0" />
-    <PackageVersion Include="Polyfill" Version="7.13.0" />
+    <PackageVersion Include="Polyfill" Version="7.14.0" />
     <PackageVersion Include="ProjectDefaults" Version="1.0.147" />
     <PackageVersion Include="Swashbuckle.AspNetCore" Version="7.2.0" />
     <PackageVersion Include="Verify" Version="28.9.0" />
