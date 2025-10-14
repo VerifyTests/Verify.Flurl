@@ -8,7 +8,7 @@
     <PackageVersion Include="Argon.Xml" Version="0.32.0" />
     <PackageVersion Include="Flurl" Version="4.0.0" />
     <PackageVersion Include="Flurl.Http" Version="4.0.2" />
-    <PackageVersion Include="MarkdownSnippets.MsBuild" Version="28.0.0-beta.2" />
+    <PackageVersion Include="MarkdownSnippets.MsBuild" Version="28.0.0-beta.5" />
     <PackageVersion Include="Microsoft.AspNetCore.OpenApi" Version="9.0.2" />
     <PackageVersion Include="Microsoft.NET.Test.Sdk" Version="18.0.0" />
     <PackageVersion Include="Polyfill" Version="8.9.0" />
