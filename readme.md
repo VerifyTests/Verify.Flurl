@@ -87,6 +87,7 @@ Results in:
       Status: 200 OK,
       Content: {
         Headers: {
+          Content-Length: 2,
           Content-Type: text/plain; charset=utf-8
         },
         Value: OK
@@ -99,6 +100,7 @@ Results in:
       Uri: http://api.mysite.com/,
       Content: {
         Headers: {
+          Content-Length: 11,
           Content-Type: text/plain; charset=utf-8
         },
         Value: the content
@@ -108,6 +110,7 @@ Results in:
       Status: 200 OK,
       Content: {
         Headers: {
+          Content-Length: 2,
           Content-Type: text/plain; charset=utf-8
         },
         Value: OK
@@ -116,5 +119,5 @@ Results in:
   }
 ]
 ```
-<sup><a href='/src/Tests/Tests.Usage.verified.txt#L1-L35' title='Snippet source file'>snippet source</a> | <a href='#snippet-Tests.Usage.verified.txt' title='Start of snippet'>anchor</a></sup>
+<sup><a href='/src/Tests/Tests.Usage.verified.txt#L1-L38' title='Snippet source file'>snippet source</a> | <a href='#snippet-Tests.Usage.verified.txt' title='Start of snippet'>anchor</a></sup>
 <!-- endSnippet -->
