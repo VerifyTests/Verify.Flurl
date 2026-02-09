@@ -4,7 +4,7 @@
     <CentralPackageTransitivePinningEnabled>true</CentralPackageTransitivePinningEnabled>
   </PropertyGroup>
   <ItemGroup>
-    <PackageVersion Include="Argon" Version="0.33.3" />
+    <PackageVersion Include="Argon" Version="0.33.5" />
     <PackageVersion Include="Argon.Xml" Version="0.33.3" />
     <PackageVersion Include="Flurl" Version="4.0.0" />
     <PackageVersion Include="Flurl.Http" Version="4.0.2" />
@@ -14,7 +14,7 @@
     <PackageVersion Include="Polyfill" Version="9.8.1" />
     <PackageVersion Include="ProjectDefaults" Version="1.0.172" />
     <PackageVersion Include="Swashbuckle.AspNetCore" Version="10.1.2" />
-    <PackageVersion Include="Verify" Version="31.12.0" />
+    <PackageVersion Include="Verify" Version="31.12.3" />
     <PackageVersion Include="Verify.DiffPlex" Version="3.1.2" />
     <PackageVersion Include="Verify.Http" Version="7.5.1" />
     <PackageVersion Include="Verify.XunitV3" Version="31.12.0" />
