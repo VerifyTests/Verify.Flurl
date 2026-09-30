@@ -9,7 +9,6 @@
   <ItemGroup>
     <PackageReference Include="Flurl" />
     <PackageReference Include="Flurl.Http" />
-    <PackageReference Include="Verify.DiffPlex" />
     <PackageReference Include="MarkdownSnippets.MsBuild" PrivateAssets="all" />
     <PackageReference Include="xunit.v3" />
     <PackageReference Include="Verify.XunitV3" />
