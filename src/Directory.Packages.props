@@ -4,8 +4,8 @@
     <CentralPackageTransitivePinningEnabled>true</CentralPackageTransitivePinningEnabled>
   </PropertyGroup>
   <ItemGroup>
-    <PackageVersion Include="Argon" Version="0.38.1" />
-    <PackageVersion Include="Argon.Xml" Version="0.38.1" />
+    <PackageVersion Include="Argon" Version="0.38.2" />
+    <PackageVersion Include="Argon.Xml" Version="0.38.2" />
     <PackageVersion Include="Flurl" Version="4.0.0" />
     <PackageVersion Include="Flurl.Http" Version="4.0.2" />
     <PackageVersion Include="MarkdownSnippets.MsBuild" Version="28.5.0" />
@@ -15,11 +15,11 @@
     <PackageVersion Include="ProjectDefaults" Version="1.0.184" />
     <PackageVersion Include="Sbom" Version="0.3.1" />
     <PackageVersion Include="Swashbuckle.AspNetCore" Version="10.3.0" />
-    <PackageVersion Include="Verify" Version="33.3.2-beta.1" />
+    <PackageVersion Include="Verify" Version="33.3.2" />
     <PackageVersion Include="Verify.Http" Version="7.5.1" />
-    <PackageVersion Include="Verify.XunitV3" Version="33.3.2-beta.1" />
+    <PackageVersion Include="Verify.XunitV3" Version="33.3.2" />
     <PackageVersion Include="xunit.v3" Version="4.0.1" />
-    <PackageVersion Include="DiffEngine" Version="20.7.1" />
+    <PackageVersion Include="DiffEngine" Version="20.7.2" />
     <PackageVersion Include="EmptyFiles" Version="8.20.1" />
     <PackageVersion Include="SimpleInfoName" Version="3.2.1" />
   </ItemGroup>
